@@ -77,6 +77,20 @@ const projects = [
     description:
       'ECI Bank is a fully regulated and licensed labuan investment bank approved by MOF and LFSA, we has been servicing since 2008.'
   },
+  {
+    id: 5,
+    image: 'mystockprice',
+    skills: 'Laravel + ReactJS',
+    groups: ['javascript', 'php'],
+    title: 'MyStockPrice',
+    isVisit: true,
+    imageCounts: 2,
+    titleDetail: 'mystockprice.com',
+    subtitle: 'MyStockPrice.com | Free Personal Stock Price Tracker',
+    url: 'https://mystockprice.com',
+    description:
+      'With MyStockPrice, we can place a target price on a stock and track our favorite stocks for Free. MyStockPrice will save our time and help us avoid those precipitated and emotional decisions that naturally.'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
