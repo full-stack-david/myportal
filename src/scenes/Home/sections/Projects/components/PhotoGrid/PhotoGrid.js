@@ -63,6 +63,20 @@ const projects = [
     description:
       'Client & Driver ordering Apps & Website'
   },
+  {
+    id: 4,
+    image: 'ecib',
+    skills: 'Laravel + VueJS',
+    groups: ['javascript', 'php'],
+    title: 'ECIB',
+    isVisit: true,
+    imageCounts: 2,
+    titleDetail: 'ecibank.com',
+    subtitle: 'ECI Bank - European Credit Investment Bank',
+    url: 'https://www.ecibank.com',
+    description:
+      'ECI Bank is a fully regulated and licensed labuan investment bank approved by MOF and LFSA, we has been servicing since 2008.'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
