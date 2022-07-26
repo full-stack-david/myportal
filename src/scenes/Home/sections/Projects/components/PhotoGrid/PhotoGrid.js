@@ -49,6 +49,20 @@ const projects = [
     description:
       'Reserve | Deliver Apps & Website'
   },
+  {
+    id: 3,
+    image: 'anytgo',
+    skills: 'Laravel + ReactJS + ReactNative',
+    groups: ['javascript', 'php', 'mobile'],
+    title: 'AnytGo',
+    isVisit: true,
+    imageCounts: 2,
+    titleDetail: 'anytgo',
+    subtitle: 'AnytGo',
+    url: '',
+    description:
+      'Client & Driver ordering Apps & Website'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
