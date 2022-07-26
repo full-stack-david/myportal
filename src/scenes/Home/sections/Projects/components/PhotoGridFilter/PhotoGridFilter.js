@@ -5,6 +5,7 @@ const filterOptions = [
   { id: 1, label: 'ALL', filterValue: 'all' },
   { id: 2, label: 'BlockChain/NFT', filterValue: 'blockchain' },
   { id: 3, label: 'PHP', filterValue: 'php' },
+  { id: 3, label: 'Mobile', filterValue: 'mobile' },
 ];
 
 function FilterOption({ id, label, filterValue, selected, handleClick }) {

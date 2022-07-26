@@ -35,6 +35,20 @@ const projects = [
     description:
       'On-Pin has been a golf course focused technology company for over 20 years. </br> •	Managing Facility/Course/Station/Assets , Members/Visitors , Geofence/Ad  </br> •	Established Real-time Golf Cart Tracking System using Rfid </br> •	Detail analyzed reports for Players/Rounds/Cart/Pace of Play/ Stations '
   },
+  {
+    id: 2,
+    image: 'reserve',
+    skills: 'Laravel + ReactJS + ReactNative',
+    groups: ['javascript', 'php', 'mobile'],
+    title: 'Reserve Restaurant',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'reserve-restaurant',
+    subtitle: 'Reserve Restaurant',
+    url: '',
+    description:
+      'Reserve | Deliver Apps & Website'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
