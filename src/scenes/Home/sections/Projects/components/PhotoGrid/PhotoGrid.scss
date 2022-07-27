@@ -117,6 +117,10 @@
 
 .project-detail-modal {
   background-color: #edf3f8;
+  .carousel .slide img {
+    max-height: 360px;
+    width: auto;
+  }
   .modal-content {
     background-color: #edf3f8;
   }

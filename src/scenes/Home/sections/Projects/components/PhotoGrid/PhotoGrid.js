@@ -105,6 +105,104 @@ const projects = [
     description:
       'Pronósticos Deportivos Gratis'
   },
+  {
+    id: 7,
+    image: 'colombia',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Colombia',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'chancescolombia.com',
+    subtitle: 'ChancesColombia.com | Resultados del Sinuano, Caribeña y más',
+    url: 'https://play.google.com/store/apps/details?id=chances.colombia.mrl',
+    description:
+      'Chances Colombia App ofrece resultados y estadísticas de todos los sorteos chances de Colombia'
+  },
+  {
+    id: 8,
+    image: 'honduras',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Honduras',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'loteriasdehonduras.com',
+    subtitle: 'Loto Honduras | Resultados de la Diaria',
+    url: 'https://play.google.com/store/apps/details?id=com.kiskoo.loterias.honduras',
+    description:
+      'Loterías de Honduras es una aplicación para todos los jugadores de Loto Honduras (Loto HN).'
+  },
+  {
+    id: 9,
+    image: 'mexico',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Mexico',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'loteriasdemexico.com',
+    subtitle: 'Resultados Pronósticos y Loteria Nacional',
+    url: 'https://play.google.com/store/apps/details?id=com.kiskoo.lotterymexico',
+    description:
+      'Resultados del Tris de Hoy, Chispazo, Melate y de todos los sorteos de la Loteria Nacional Mexicana (Lotenal) y Pronosticos para la Assistencia Publica.'
+  },
+  {
+    id: 10,
+    image: 'loterias',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Loterias',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'conectate.com.do',
+    subtitle: 'Conectate.com.do | Loterías, Turismo y Noticias Dominicanas',
+    url: 'https://play.google.com/store/apps/details?id=com.kiskoo.loterias.conectate',
+    description:
+      'Resultados de Leidsa, Lotería Nacional, Lotería Real y Loteka; eventos, encuestas, precios de combustibles y guía turística de la República Dominicana.'
+  },
+  {
+    id: 11,
+    image: 'dominicanas',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Dominicanas',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'loteriasdominicanas.com',
+    subtitle: 'LoteriasDominicanas.com: Lotería Nacional | Leidsa | Real | Loteka',
+    url: 'https://play.google.com/store/apps/details?id=kiskoo.s.r.l',
+    description:
+      'Resultados de hoy de la Lotería Nacional, Leidsa, Lotería Real Tarde, Quiniela Loteka, NY (Nueva York) y todos los sorteos de loterias dominicanas.'
+  },
+  {
+    id: 12,
+    image: 'pelota',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Pelota',
+    isVisit: true,
+    imageCounts: 4,
+    titleDetail: 'pelotainvernal.com',
+    subtitle: 'PelotaInvernal.com | Resultados, Calendarios y Posiciones',
+    url: 'https://play.google.com/store/apps/details?id=com.pelota',
+    description:
+      'Cobertura completa de la Pelota Invernal y la Serie del Caribe: Resultados en Vivo, Calendarios, Tabla de Posiciones y mucho más.'
+  },
+  {
+    id: 13,
+    image: 'lotomundo',
+    skills: 'React Native',
+    groups: ['mobile'],
+    title: 'Lotomundo',
+    isVisit: true,
+    imageCounts: 4,
+    titleDetail: 'lotomundo.com',
+    subtitle: 'Lotomundo.com',
+    url: 'https://play.google.com/store/apps/details?id=lotomundo.com',
+    description:
+      'Lotomundo'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
