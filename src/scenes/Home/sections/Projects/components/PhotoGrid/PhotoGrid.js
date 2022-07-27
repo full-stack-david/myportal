@@ -91,6 +91,20 @@ const projects = [
     description:
       'With MyStockPrice, we can place a target price on a stock and track our favorite stocks for Free. MyStockPrice will save our time and help us avoid those precipitated and emotional decisions that naturally.'
   },
+  {
+    id: 6,
+    image: 'guiadeportiva',
+    skills: 'Wordpress',
+    groups: ['php'],
+    title: 'GuiaDeportiva',
+    isVisit: true,
+    imageCounts: 1,
+    titleDetail: 'guiadeportiva.com.do',
+    subtitle: 'GuiaDeportiva.com.do: - Pronósticos Deportivos Gratis',
+    url: 'https://guiadeportiva.com.do',
+    description:
+      'Pronósticos Deportivos Gratis'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
