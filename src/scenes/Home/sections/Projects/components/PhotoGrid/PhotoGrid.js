@@ -217,6 +217,20 @@ const projects = [
     description:
       'Resultados de Leidsa, Lotería Nacional, Lotería Real y Loteka; eventos, encuestas, precios de combustibles y guía turística de la República Dominicana.'
   },
+  {
+    id: 15,
+    image: 'betpolls',
+    skills: 'PHP + Laravel',
+    groups: ['php'],
+    title: 'Betpolls',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'betpolls.com',
+    subtitle: 'Betpolls.com | Free Picks, Expert Tips and Fantasy',
+    url: 'https://betpolls.com',
+    description:
+      "Check out today's top picks and play Betpolls.com Fantasy,  it's free, its fun and you can win Amazon Gift Cards.  Betpolls.com covers NFL, MLB, NBA, NHL, College Sports and all the main Soccer Leagues."
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
