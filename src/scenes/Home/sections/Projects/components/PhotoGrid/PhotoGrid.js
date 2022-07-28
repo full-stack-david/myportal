@@ -203,6 +203,20 @@ const projects = [
     description:
       'Lotomundo'
   },
+  {
+    id: 14,
+    image: 'conectate',
+    skills: 'PHP + Wordpress',
+    groups: ['php'],
+    title: 'Conectate',
+    isVisit: true,
+    imageCounts: 5,
+    titleDetail: 'conectate.com.do',
+    subtitle: 'Conectate.com.do | Loterías, Turismo y Noticias Dominicanas',
+    url: 'https://www.conectate.com.do',
+    description:
+      'Resultados de Leidsa, Lotería Nacional, Lotería Real y Loteka; eventos, encuestas, precios de combustibles y guía turística de la República Dominicana.'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
