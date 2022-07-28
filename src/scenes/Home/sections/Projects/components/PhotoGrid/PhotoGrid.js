@@ -231,6 +231,20 @@ const projects = [
     description:
       "Check out today's top picks and play Betpolls.com Fantasy,  it's free, its fun and you can win Amazon Gift Cards.  Betpolls.com covers NFL, MLB, NBA, NHL, College Sports and all the main Soccer Leagues."
   },
+  {
+    id: 16,
+    image: 'guiamedica',
+    skills: 'PHP + Wordpress',
+    groups: ['php'],
+    title: 'Guiamedica',
+    isVisit: true,
+    imageCounts: 3,
+    titleDetail: 'guiamedica.com.do',
+    subtitle: 'GuiaMedica.com.do | Directorio Médico Dominicano',
+    url: 'https://guiamedica.com.do',
+    description:
+      'Directorio médico más completo de la Republica Dominicana donde miles de dominicanos buscan médicos, centro médicos y hospitales.'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
