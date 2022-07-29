@@ -245,6 +245,62 @@ const projects = [
     description:
       'Directorio médico más completo de la Republica Dominicana donde miles de dominicanos buscan médicos, centro médicos y hospitales.'
   },
+  {
+    id: 17,
+    image: 'earlylearningfund',
+    skills: 'Laravel + Wordpress',
+    groups: ['php'],
+    title: 'Early Learning Fund',
+    isVisit: true,
+    imageCounts: 4,
+    titleDetail: 'earlylearningfund.org.au',
+    subtitle: 'Early Learning Fund',
+    url: 'https://www.earlylearningfund.org.au',
+    description:
+      'Early Learning Fund - Enabling every child to have a better future'
+  },
+  {
+    id: 18,
+    image: 'smith',
+    skills: 'Laravel + Wordpress',
+    groups: ['php'],
+    title: 'Smith Collective',
+    isVisit: true,
+    imageCounts: 4,
+    titleDetail: 'earlylearningfund.org.au',
+    subtitle: 'Southport Rentals | 1, 2 and 3 Bedroom Apartments | Smith Collective',
+    url: 'https://www.smithcollective.com.au',
+    description:
+      'Smith Collective is a unique community providing Southport rentals of 1, 2 or 3 bedroom apartments and a unique retail hub on the Gold Coast.'
+  },
+  {
+    id: 19,
+    image: 'wolff',
+    skills: 'Laravel + Wordpress',
+    groups: ['php'],
+    title: 'Wolff Mining',
+    isVisit: true,
+    imageCounts: 4,
+    titleDetail: 'wolffmining.com.au',
+    subtitle: 'Wolff Mining',
+    url: 'https://www.wolffmining.com.au',
+    description:
+      'Wolff Mining provides a range of automated and innovative solutions such as large scale satellite bulk dozer push and semi-autonomous blast hole drilling'
+  },
+  {
+    id: 20,
+    image: 'yabbr',
+    skills: 'Laravel + Wordpress',
+    groups: ['php'],
+    title: 'Yabbr',
+    isVisit: true,
+    imageCounts: 2,
+    titleDetail: 'yabbr.com.au',
+    subtitle: 'SMS and Voice Broadcast for Australian Business',
+    url: 'https://yabbr.com.au',
+    description:
+      'Yabbr is an SMS and Voice broadcast platform for Australian Businesses. Access via API or Dashboard to send Campaigns, Surveys, and enage with your Audience via OmniChannel Chat.'
+  },
 ];
 
 function Figure({ id, groups, imageName, title, skills, handleLearnMore }) {
