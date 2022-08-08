@@ -12,7 +12,7 @@ const projects = [
     image: 'burnt',
     skills: 'NFT + ReactJS + Web3.js',
     groups: ['blockchain'],
-    title: 'Verifeye',
+    title: 'Burnt',
     isVisit: true,
     imageCounts: 4,
     titleDetail: 'app.burnt.com',
